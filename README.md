@@ -1,5 +1,7 @@
 :octocat:
 
+updating: [我的简历](https://edu-1014.oss-cn-beijing.aliyuncs.com/resume.jpg)  
+
 #### 这个repository用来记录一下未来三年的学习进度:D
 
 
@@ -62,5 +64,7 @@ update:
 2020.09.09:好吧以后七夕和我有关系了 目前阶段正在学习的项目:https://teachyourselfcs.com/
 
 练内功中...
+
+
 
 
