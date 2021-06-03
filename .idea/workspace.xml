@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb4589f8-19ae-4b51-9fe4-8cb93df7dbb8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="eb4589f8-19ae-4b51-9fe4-8cb93df7dbb8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,8 +10,16 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -40,8 +46,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\vuepackage2\yxr-study-in-XDU\计网复习" />
+    </key>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -56,11 +73,90 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597750751943</updated>
-      <workItem from="1597750769429" duration="645000" />
+      <workItem from="1597750769429" duration="722000" />
+      <workItem from="1598344010375" duration="1444000" />
+      <workItem from="1599656335523" duration="735000" />
+      <workItem from="1600221226544" duration="2064000" />
+      <workItem from="1600311752800" duration="609000" />
+      <workItem from="1601360153705" duration="578000" />
+      <workItem from="1602253713881" duration="44000" />
+      <workItem from="1603339187378" duration="24000" />
+      <workItem from="1608898296860" duration="719000" />
+      <workItem from="1622700229063" duration="493000" />
     </task>
+    <task id="LOCAL-00001" summary="8.25更新">
+      <created>1598344114916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598344114916</updated>
+    </task>
+    <task id="LOCAL-00002" summary="9.9 update">
+      <created>1599656462365</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599656462365</updated>
+    </task>
+    <task id="LOCAL-00003" summary="9.16 update">
+      <created>1600221410132</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600221410132</updated>
+    </task>
+    <task id="LOCAL-00004" summary="9.29 update">
+      <created>1601360569355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601360569356</updated>
+    </task>
+    <task id="LOCAL-00005" summary="12.25 update">
+      <created>1608898410326</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608898410326</updated>
+    </task>
+    <task id="LOCAL-00006" summary="06.03 update">
+      <created>1622700386493</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622700386493</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="8.25更新" />
+    <MESSAGE value="9.9 update" />
+    <MESSAGE value="9.16 update" />
+    <MESSAGE value="9.29 update" />
+    <MESSAGE value="12.25 update" />
+    <MESSAGE value="06.03 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="06.03 update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="892" y="171" key="CommitChangelistDialog2" timestamp="1622700383722">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="892" y="171" key="CommitChangelistDialog2/0.0.2048.1112/2560.0.1440.920@0.0.2048.1112" timestamp="1622700383722" />
+    <state x="881" y="314" key="Vcs.Push.Dialog.v2" timestamp="1622700463751">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="881" y="314" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.0.1440.920@0.0.2048.1112" timestamp="1622700463751" />
+    <state x="1082" y="498" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622700451166">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1082" y="498" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112/2560.0.1440.920@0.0.2048.1112" timestamp="1622700451166" />
+    <state x="966" y="372" key="git4idea.merge.GitPullDialog" timestamp="1622700369412">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="966" y="372" key="git4idea.merge.GitPullDialog/0.0.2048.1112/2560.0.1440.920@0.0.2048.1112" timestamp="1622700369412" />
   </component>
 </project>
