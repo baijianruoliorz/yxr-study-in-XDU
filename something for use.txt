@@ -1,0 +1,247 @@
+启动nginx:nginx -c /usr/local/nginx/conf/nginx.conf  (配置文件
+ git config --global --add remote.origin.proxy socks5://127.0.0.1:2080----------->OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443 
+git config --global --add remote.origin.proxy 127.0.0.1:2080------->Proxy CONNECT aborted
+git config --global http.proxy 'socks5://127.0.0.1:2080'
+git config --global https.proxy socks5://127.0.0.1:2080
+git config --global http.https://github.com.proxy socks5://127.0.0.1:2080
+git config --global --unset https.proxy
+github token:3297048e071241bd7d12f490087c0f02a225292a
+
+
+https://beian.aliyun.com/pcContainer/orderdetail?baOrderId=2024760551161
+新的ssh公钥
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDOkEJnkuhWCiKWzg33qesgZjZTgoAxfsnmY8mnLRLAdilyE3gQPLFGT7ri0JmyAqaCCQnVW8fTqdxVfAlHeah4I7FIzLqCzuhqcHBNuH6IpEQRV5axUvwoaaaPnl7dlJRpqoh50U/zvtAhwWVwH5TPOcPLCvOzV6x3LB6E0xRZNZD4zJ5e4lMoxItJKQDQ7MH7peSGXijC16XaUlokmZSvqfALACDc1oyXfhRZ2quSIG+K1OGRpJQOCvIw0o5Z0jsYgnLTTx+XvltZhoO/eqpI2tAYJ6muB8ssgrZXS7P4q+e7cqK8PGuQOZmNFwb+kMCTlmC8dHfsu0x6+SFs6EECzKqPQPKfrn4n5uIpmRMB8nGuswMSaYC8beonLfMTTdnvkVrOWki2GgsDXLc5zMFRftHjNQ++g78Yr2xGuzLkImw8WQXuK53NNPPW2IPB7foor6hZMtMe3YSKcOyseZeywCxdwaPlAnRjvtSlYCgYAgqOulQa2xCST20c4H5GXcc= liqiqiorz@DESKTOP-8R9JVOE
+
+d:
+cd software
+cd D:\software\redis-64.3.0.503
+redis-server.exe
+git aa-->得到aa的value
+keys *列举所有key
+
+阿里OSS
+AccessKey ID：
+LTAI4FyG9N8ejRFEzGKmWR5V
+
+不可替代性 2020/5/21 21:43:42
+AccessKey Secret：
+kmmlYGgVyVtduS5mpvkmxWYKdAeDHa
+
+ID
+LTAI4FyG9N8ejRFEzGKmWR5V
+
+虚拟机IP 192.168.0.11
+
+微信APPID  wxea732f00c5918bbd
+微信APPSECRET f15bc37f68eb837b60934059859d45f0
+
+腾讯地图APIKEY:WESBZ-SC5KD-J5P4O-HUKXC-4YXZQ-BDFBX
+
+	<navigator url="/pages/information/information" hover-class="none" class="zai-label">下方填入您要修改的密码</navigator>
+				<view class="cell">
+				
+					<view class="cell-left">
+						<image  class="cell-icon" src="/static/images/user/icon-kefu.png" mode="aspectFill"></image>
+						<!-- 这个地方写input最好 -->
+						<view class="cell-text">您的密码</view>
+							
+						<input v-model="user.user.password" class="zai-input" placeholder-class :placeholder="user1.password" />
+					</view>
+					<view class="iconfont iconmore1"></view>
+				</view>
+
+切换分支有时候报错:
+warning: LF will be replaced by CRLF in ball_pool/assets/Main.js.
+The file will have its original line endings in your working directory
+这是因为文件中换行符的差别导致的。这个提示的意思是说：会把windows格式（CRLF（也就是回车换行））
+转换成Unix格式（LF），这些是转换文件格式的警告，不影响使用。
+git默认支持LF。windows commit代码时git会把CRLF转LF，update代码时LF换CRLF
+git rm -rf --cached .idea/workspace.xml(强制删除这个文件)
+git commit -a  全部提交
+
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+是不是在不同的机器上上做了提交？？
+远程分支上存在本地分支中不存在的提交，往往是多人协作开发过程中遇到的问题
+，可以先fetch再merge，也就是pull，把远程分支上的提交合并到本地分支之后再push。
+如果你确定远程分支上那些提交都不需要了，那么直接git push origin master -f，强行让本地分支覆盖远程分支。。。
+
+
+The current branch master has no upstream branch.:https://blog.csdn.net/benben_2015/article/details/78803753
+在push代码时，出现“git master branch has no upstream branch”问题的原因是没有将本地的分支与远程仓库的分支进行关联。如下图所示：
+出现这种情况主要是由于远程仓库太多，且分支较多。在默认情况下，git push时一般会上传到origin下的master分支上，然而当repository和branch过多，而又没有设置关联时，git就会产生疑问，因为它无法判断你的push目标。
+
+解决办法其实就是确定这两个值，方法有两种：
+第一种如上图中的提示：git push --set-upstream origin master。
+其中的origin是你在clone远程代码时，git为你创建的指向这个远程代码库的标签，
+它指向repository。为了能清楚了解你要指向的repository，可以用命令git remote -v进行查看。
+master是你远程的branch，可以用git branch -a查看所有分支，远程分支是红色的部分。然后确定好这两个值后，将值换掉即可。
+另一种方法是：git push -u origin master。同样根据自己的需要，替换origin和master
+
+完整git流程,先创建云端库
+git status
+
+git add .(添加到暂存区
+
+git commit -m "说明"
+
+再复制后两行 即可将代码上传到云端**将本地与云端绑定
+
+一般开发使用:::
+
+没有-b就是切换分支不创建分支
+新的分支:git checkout -b name(记住没有""
+
+这已经切换了
+
+运行git branch查看所有分支
+
+git status(红色未添加,绿色已添加暂存区
+
+
+git commit -m "完成了什么功能"
+
+git branch 查看分支
+
+如何把新分支合并到主分支:
+
+git checkout master(切换到master
+
+git merge xx(将xx分支代码合并到master
+
+git push(推送到云端
+
+此时,仅仅是将本地的主分支推送到云端,如何将其他分支也推送到云端呢??  切记 先提交master再提交其他branch
+
+git checkout xxx 切换到其他分支
+
+第一次将xx分支推送到云端,此时云端没有此分支 需要
+
+git push -u origin xxx 即可!!!
+git push --set-upstream origin newBranch(或者)
+
+main.js里面配置axios
+
+p21
+import axios from "axios"(已经下载了
+Vue.prototype.$http(这里你写啥后面就用啥名称this.$xxx)=axios :把每个vue对象挂载axios使其通过this就能访问
+axios.default.baseURL=''...配置基础路由(根路径)
+再通过this.$http就可发起请求
+比如:const result=(await)this.$http.post('url',参数)
+如果返回方法是promise 建议使用async
+解构赋值 {data:res}直接把data赋值到res
+
+虚拟机mysql端口3310 
+linux数据库密码admin
+
+提交镜像:
+docker commit -m="信息" -a="作者" 容器id 目标镜像名(liqiqiorz/xxx:1.0)      此时是提交到本地镜像群
+构建自己的镜像:vim mydockerfile(随便起
+FROM ....
+MAINTAINER liqiqiorz<1099462011@qq.com>
+ENV MYPATH /usr/local (进去的目录
+WORKDIR $MYPATH(设置工作目录
+RUN yun -y ....(自由发挥
+EXPOSE 80(暴露80
+CMD echo $MYPATH
+CMD echo "----end----"
+CMD /bin/bash
+写完之后 
+构建镜像:docker build -f mydockerfile -t liqiqiorz/xxx:1.0 .
+docker run -it liqiqiorz/xxx:1.0(运行容器
+一进目录会是设置的工作目录
+拿到一个镜像以后 docker history mirrorID可以查看变更历史和信息 很实用
+
+
+docker安装一个镜像完整步骤(以 nginx为例)
+docker search nginx(查找
+docker pull nginx(下载镜像
+docker images(查看镜像
+docekr run -d --name nginx01 -p 3344:80 nginx(启动容器)
+docker exec -it nginx01(进入) /usr/share/nginx
+
+
+镜像相当于class 容器相当于示例
+docker登录 docker login -u liqiqiorz
+docker提交镜像 docker push liqiqiroz/mirrorName:version 尽量带上版本号不然会失败,版本号可以随便写
+关于提交镜像的补充:镜像命令通常情况下满足yourname/mirrorname,不然就需要加tag标签
+详情见https://how2j.cn/k/docker/docker-push/2013.html
+
+先docker images查询ID
+docker tag mirrorId yourTag:version  (liqiqiorz/xxx:1.0)
+此时 docker images镜像就会多一个你的yourTag:version
+此时再docker push liqiqiorz/xxx:1.0
+docker run --name tmalls -d  -p 8002:8002 --restart=always liqiqiorz/tmalls:latest
+docker run --name tmallers -d -p 8004:8002 liqiqiorz/tmaller:latest
+docker run --name cotreehole -d -p 8006:8006 liqiqiorz/treehole:latest
+Error response from daemon: Invalid container name (liqiqiorz/tmall), only [a-zA-Z0-9][a-zA-Z0-9_.-]              are allowed.容器名字不能有/
+
+
+docker运行:
+将jar和dockerfile放入你创建的文件夹 docker build -t name .(注意有个. 即可完成打包镜像,注意名字可以随便写但是只能是小写字母不然报错
+然后就docker images 就会出现刚才的镜像
+运行创建容器:docker run -d -P(大写 --name "随便起个名字作为container名字" mirrorNAMe
+docker ps可以查询容器映射地址 xxx->xxx
+
+docker stop <容器 ID>
+
+docker restart <容器 ID>
+
+如果run之后 看不到容器怎么办???:
+docker ps -a查询所有容器,包括已经死亡的
+docker logs [id]查询启动失败原因
+ps查询在运行的容器
+docker port NAME查看端口映射情况。
+
+创建数据库 CREATE DATABASE comment DEFAULT CHARACTER SET utf8;
+drop database <数据库名>;删库
+导入数据 mysql -u root -padmin --default-character-set=utf8 tmall < /home/wwwroot/ftptest/tmall.sql
+cd /home/jaranddocker/gift
+部署到linux持续运行 nohup java -jar gift-0.0.1-SNAPSHOT.jar &
+ nohup java -jar /usr/local/jenkins/jenkins.war>/usr/local/jenkins/jenkins.out &  >后面是日志存放位置 自动创建文件
+出现  nohup: ignoring input and redirecting stderr to stdout再次回车即可
+
+
+将jar docker-compose.yml dockerfilecv到一个文件夹
+docker-compose up 构建运行
+项目重新部署打包 :docker-compose up --build 项目再去重新构建
+
+ps -ef | grep jenkins 查看进程(以jenkins为例)
+kill -9 ID 杀进程
+
+linux启动redis
+cd /usr/local/redis/bin  ---> ./redis-server ../redis.conf     ./redis-cli 即可进入redis
+
+连接Redis(必须先启动哦
+/usr/local/redis/redis-cli 
+5.关闭redis
+强行终止redis进程可能会导致redis持久化数据丢失。正确停止Redis的方式应该是向Redis发送SHUTDOWN命令，命令为：
+cd /usr/local/redis
+./bin/redis-cli shutdown
+
+./redis-server ../redis.conf
+
+强行终止redis
+pkill redis-server
+
+
+
+
+config set stop-writes-on-bgsave-error no
+
+keys *
+
+flushall
+
+让redis开机自启
+vim /etc/rc.local
+//添加
+/usr/local/redis/bin/redis-server /usr/local/redis/etc/redis-conf
+
+
+查看所有进程 :netstat -ano
+
+findstr xxx 查询某个端口
