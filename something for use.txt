@@ -1,4 +1,4 @@
-Æô¶¯nginx:nginx -c /usr/local/nginx/conf/nginx.conf  (ÅäÖÃÎÄ¼ş
+å¯åŠ¨nginx:nginx -c /usr/local/nginx/conf/nginx.conf  (é…ç½®æ–‡ä»¶
  git config --global --add remote.origin.proxy socks5://127.0.0.1:2080----------->OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443 
 git config --global --add remote.origin.proxy 127.0.0.1:2080------->Proxy CONNECT aborted
 git config --global http.proxy 'socks5://127.0.0.1:2080'
@@ -9,222 +9,223 @@ github token:3297048e071241bd7d12f490087c0f02a225292a
 
 
 https://beian.aliyun.com/pcContainer/orderdetail?baOrderId=2024760551161
-ĞÂµÄssh¹«Ô¿
+æ–°çš„sshå…¬é’¥
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDOkEJnkuhWCiKWzg33qesgZjZTgoAxfsnmY8mnLRLAdilyE3gQPLFGT7ri0JmyAqaCCQnVW8fTqdxVfAlHeah4I7FIzLqCzuhqcHBNuH6IpEQRV5axUvwoaaaPnl7dlJRpqoh50U/zvtAhwWVwH5TPOcPLCvOzV6x3LB6E0xRZNZD4zJ5e4lMoxItJKQDQ7MH7peSGXijC16XaUlokmZSvqfALACDc1oyXfhRZ2quSIG+K1OGRpJQOCvIw0o5Z0jsYgnLTTx+XvltZhoO/eqpI2tAYJ6muB8ssgrZXS7P4q+e7cqK8PGuQOZmNFwb+kMCTlmC8dHfsu0x6+SFs6EECzKqPQPKfrn4n5uIpmRMB8nGuswMSaYC8beonLfMTTdnvkVrOWki2GgsDXLc5zMFRftHjNQ++g78Yr2xGuzLkImw8WQXuK53NNPPW2IPB7foor6hZMtMe3YSKcOyseZeywCxdwaPlAnRjvtSlYCgYAgqOulQa2xCST20c4H5GXcc= liqiqiorz@DESKTOP-8R9JVOE
 
 d:
 cd software
 cd D:\software\redis-64.3.0.503
 redis-server.exe
-git aa-->µÃµ½aaµÄvalue
-keys *ÁĞ¾ÙËùÓĞkey
+git aa-->å¾—åˆ°aaçš„value
+keys *åˆ—ä¸¾æ‰€æœ‰key
 
-°¢ÀïOSS
-AccessKey ID£º
+é˜¿é‡ŒOSS
+AccessKey IDï¼š
 LTAI4FyG9N8ejRFEzGKmWR5V
 
-²»¿ÉÌæ´úĞÔ 2020/5/21 21:43:42
-AccessKey Secret£º
+ä¸å¯æ›¿ä»£æ€§ 2020/5/21 21:43:42
+AccessKey Secretï¼š
 kmmlYGgVyVtduS5mpvkmxWYKdAeDHa
 
 ID
 LTAI4FyG9N8ejRFEzGKmWR5V
 
-ĞéÄâ»úIP 192.168.0.11
+è™šæ‹ŸæœºIP 192.168.0.11
 
-Î¢ĞÅAPPID  wxea732f00c5918bbd
-Î¢ĞÅAPPSECRET f15bc37f68eb837b60934059859d45f0
+å¾®ä¿¡APPID  wxea732f00c5918bbd
+å¾®ä¿¡APPSECRET f15bc37f68eb837b60934059859d45f0
 
-ÌÚÑ¶µØÍ¼APIKEY:WESBZ-SC5KD-J5P4O-HUKXC-4YXZQ-BDFBX
+è…¾è®¯åœ°å›¾APIKEY:WESBZ-SC5KD-J5P4O-HUKXC-4YXZQ-BDFBX
 
-	<navigator url="/pages/information/information" hover-class="none" class="zai-label">ÏÂ·½ÌîÈëÄúÒªĞŞ¸ÄµÄÃÜÂë</navigator>
+	<navigator url="/pages/information/information" hover-class="none" class="zai-label">ä¸‹æ–¹å¡«å…¥æ‚¨è¦ä¿®æ”¹çš„å¯†ç </navigator>
 				<view class="cell">
 				
 					<view class="cell-left">
 						<image  class="cell-icon" src="/static/images/user/icon-kefu.png" mode="aspectFill"></image>
-						<!-- Õâ¸öµØ·½Ğ´input×îºÃ -->
-						<view class="cell-text">ÄúµÄÃÜÂë</view>
+						<!-- è¿™ä¸ªåœ°æ–¹å†™inputæœ€å¥½ -->
+						<view class="cell-text">æ‚¨çš„å¯†ç </view>
 							
 						<input v-model="user.user.password" class="zai-input" placeholder-class :placeholder="user1.password" />
 					</view>
 					<view class="iconfont iconmore1"></view>
 				</view>
 
-ÇĞ»»·ÖÖ§ÓĞÊ±ºò±¨´í:
+åˆ‡æ¢åˆ†æ”¯æœ‰æ—¶å€™æŠ¥é”™:
 warning: LF will be replaced by CRLF in ball_pool/assets/Main.js.
 The file will have its original line endings in your working directory
-ÕâÊÇÒòÎªÎÄ¼şÖĞ»»ĞĞ·ûµÄ²î±ğµ¼ÖÂµÄ¡£Õâ¸öÌáÊ¾µÄÒâË¼ÊÇËµ£º»á°Ñwindows¸ñÊ½£¨CRLF£¨Ò²¾ÍÊÇ»Ø³µ»»ĞĞ£©£©
-×ª»»³ÉUnix¸ñÊ½£¨LF£©£¬ÕâĞ©ÊÇ×ª»»ÎÄ¼ş¸ñÊ½µÄ¾¯¸æ£¬²»Ó°ÏìÊ¹ÓÃ¡£
-gitÄ¬ÈÏÖ§³ÖLF¡£windows commit´úÂëÊ±git»á°ÑCRLF×ªLF£¬update´úÂëÊ±LF»»CRLF
-git rm -rf --cached .idea/workspace.xml(Ç¿ÖÆÉ¾³ıÕâ¸öÎÄ¼ş)
-git commit -a  È«²¿Ìá½»
+è¿™æ˜¯å› ä¸ºæ–‡ä»¶ä¸­æ¢è¡Œç¬¦çš„å·®åˆ«å¯¼è‡´çš„ã€‚è¿™ä¸ªæç¤ºçš„æ„æ€æ˜¯è¯´ï¼šä¼šæŠŠwindowsæ ¼å¼ï¼ˆCRLFï¼ˆä¹Ÿå°±æ˜¯å›è½¦æ¢è¡Œï¼‰ï¼‰
+è½¬æ¢æˆUnixæ ¼å¼ï¼ˆLFï¼‰ï¼Œè¿™äº›æ˜¯è½¬æ¢æ–‡ä»¶æ ¼å¼çš„è­¦å‘Šï¼Œä¸å½±å“ä½¿ç”¨ã€‚
+gité»˜è®¤æ”¯æŒLFã€‚windows commitä»£ç æ—¶gitä¼šæŠŠCRLFè½¬LFï¼Œupdateä»£ç æ—¶LFæ¢CRLF
+git rm -rf --cached .idea/workspace.xml(å¼ºåˆ¶åˆ é™¤è¿™ä¸ªæ–‡ä»¶)
+git commit -a  å…¨éƒ¨æäº¤
 
 hint: Updates were rejected because the remote contains work that you do
 hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-ÊÇ²»ÊÇÔÚ²»Í¬µÄ»úÆ÷ÉÏÉÏ×öÁËÌá½»£¿£¿
-Ô¶³Ì·ÖÖ§ÉÏ´æÔÚ±¾µØ·ÖÖ§ÖĞ²»´æÔÚµÄÌá½»£¬ÍùÍùÊÇ¶àÈËĞ­×÷¿ª·¢¹ı³ÌÖĞÓöµ½µÄÎÊÌâ
-£¬¿ÉÒÔÏÈfetchÔÙmerge£¬Ò²¾ÍÊÇpull£¬°ÑÔ¶³Ì·ÖÖ§ÉÏµÄÌá½»ºÏ²¢µ½±¾µØ·ÖÖ§Ö®ºóÔÙpush¡£
-Èç¹ûÄãÈ·¶¨Ô¶³Ì·ÖÖ§ÉÏÄÇĞ©Ìá½»¶¼²»ĞèÒªÁË£¬ÄÇÃ´Ö±½Ógit push origin master -f£¬Ç¿ĞĞÈÃ±¾µØ·ÖÖ§¸²¸ÇÔ¶³Ì·ÖÖ§¡£¡£¡£
+æ˜¯ä¸æ˜¯åœ¨ä¸åŒçš„æœºå™¨ä¸Šä¸Šåšäº†æäº¤ï¼Ÿï¼Ÿ
+è¿œç¨‹åˆ†æ”¯ä¸Šå­˜åœ¨æœ¬åœ°åˆ†æ”¯ä¸­ä¸å­˜åœ¨çš„æäº¤ï¼Œå¾€å¾€æ˜¯å¤šäººåä½œå¼€å‘è¿‡ç¨‹ä¸­é‡åˆ°çš„é—®é¢˜
+ï¼Œå¯ä»¥å…ˆfetchå†mergeï¼Œä¹Ÿå°±æ˜¯pullï¼ŒæŠŠè¿œç¨‹åˆ†æ”¯ä¸Šçš„æäº¤åˆå¹¶åˆ°æœ¬åœ°åˆ†æ”¯ä¹‹åå†pushã€‚
+å¦‚æœä½ ç¡®å®šè¿œç¨‹åˆ†æ”¯ä¸Šé‚£äº›æäº¤éƒ½ä¸éœ€è¦äº†ï¼Œé‚£ä¹ˆç›´æ¥git push origin master -fï¼Œå¼ºè¡Œè®©æœ¬åœ°åˆ†æ”¯è¦†ç›–è¿œç¨‹åˆ†æ”¯ã€‚ã€‚ã€‚
 
 
 The current branch master has no upstream branch.:https://blog.csdn.net/benben_2015/article/details/78803753
-ÔÚpush´úÂëÊ±£¬³öÏÖ¡°git master branch has no upstream branch¡±ÎÊÌâµÄÔ­ÒòÊÇÃ»ÓĞ½«±¾µØµÄ·ÖÖ§ÓëÔ¶³Ì²Ö¿âµÄ·ÖÖ§½øĞĞ¹ØÁª¡£ÈçÏÂÍ¼ËùÊ¾£º
-³öÏÖÕâÖÖÇé¿öÖ÷ÒªÊÇÓÉÓÚÔ¶³Ì²Ö¿âÌ«¶à£¬ÇÒ·ÖÖ§½Ï¶à¡£ÔÚÄ¬ÈÏÇé¿öÏÂ£¬git pushÊ±Ò»°ã»áÉÏ´«µ½originÏÂµÄmaster·ÖÖ§ÉÏ£¬È»¶øµ±repositoryºÍbranch¹ı¶à£¬¶øÓÖÃ»ÓĞÉèÖÃ¹ØÁªÊ±£¬git¾Í»á²úÉúÒÉÎÊ£¬ÒòÎªËüÎŞ·¨ÅĞ¶ÏÄãµÄpushÄ¿±ê¡£
+åœ¨pushä»£ç æ—¶ï¼Œå‡ºç°â€œgit master branch has no upstream branchâ€é—®é¢˜çš„åŸå› æ˜¯æ²¡æœ‰å°†æœ¬åœ°çš„åˆ†æ”¯ä¸è¿œç¨‹ä»“åº“çš„åˆ†æ”¯è¿›è¡Œå…³è”ã€‚å¦‚ä¸‹å›¾æ‰€ç¤ºï¼š
+å‡ºç°è¿™ç§æƒ…å†µä¸»è¦æ˜¯ç”±äºè¿œç¨‹ä»“åº“å¤ªå¤šï¼Œä¸”åˆ†æ”¯è¾ƒå¤šã€‚åœ¨é»˜è®¤æƒ…å†µä¸‹ï¼Œgit pushæ—¶ä¸€èˆ¬ä¼šä¸Šä¼ åˆ°originä¸‹çš„masteråˆ†æ”¯ä¸Šï¼Œç„¶è€Œå½“repositoryå’Œbranchè¿‡å¤šï¼Œè€Œåˆæ²¡æœ‰è®¾ç½®å…³è”æ—¶ï¼Œgitå°±ä¼šäº§ç”Ÿç–‘é—®ï¼Œå› ä¸ºå®ƒæ— æ³•åˆ¤æ–­ä½ çš„pushç›®æ ‡ã€‚
 
-½â¾ö°ì·¨ÆäÊµ¾ÍÊÇÈ·¶¨ÕâÁ½¸öÖµ£¬·½·¨ÓĞÁ½ÖÖ£º
-µÚÒ»ÖÖÈçÉÏÍ¼ÖĞµÄÌáÊ¾£ºgit push --set-upstream origin master¡£
-ÆäÖĞµÄoriginÊÇÄãÔÚcloneÔ¶³Ì´úÂëÊ±£¬gitÎªÄã´´½¨µÄÖ¸ÏòÕâ¸öÔ¶³Ì´úÂë¿âµÄ±êÇ©£¬
-ËüÖ¸Ïòrepository¡£ÎªÁËÄÜÇå³şÁË½âÄãÒªÖ¸ÏòµÄrepository£¬¿ÉÒÔÓÃÃüÁîgit remote -v½øĞĞ²é¿´¡£
-masterÊÇÄãÔ¶³ÌµÄbranch£¬¿ÉÒÔÓÃgit branch -a²é¿´ËùÓĞ·ÖÖ§£¬Ô¶³Ì·ÖÖ§ÊÇºìÉ«µÄ²¿·Ö¡£È»ºóÈ·¶¨ºÃÕâÁ½¸öÖµºó£¬½«Öµ»»µô¼´¿É¡£
-ÁíÒ»ÖÖ·½·¨ÊÇ£ºgit push -u origin master¡£Í¬Ñù¸ù¾İ×Ô¼ºµÄĞèÒª£¬Ìæ»»originºÍmaster
+è§£å†³åŠæ³•å…¶å®å°±æ˜¯ç¡®å®šè¿™ä¸¤ä¸ªå€¼ï¼Œæ–¹æ³•æœ‰ä¸¤ç§ï¼š
+ç¬¬ä¸€ç§å¦‚ä¸Šå›¾ä¸­çš„æç¤ºï¼šgit push --set-upstream origin masterã€‚
+å…¶ä¸­çš„originæ˜¯ä½ åœ¨cloneè¿œç¨‹ä»£ç æ—¶ï¼Œgitä¸ºä½ åˆ›å»ºçš„æŒ‡å‘è¿™ä¸ªè¿œç¨‹ä»£ç åº“çš„æ ‡ç­¾ï¼Œ
+å®ƒæŒ‡å‘repositoryã€‚ä¸ºäº†èƒ½æ¸…æ¥šäº†è§£ä½ è¦æŒ‡å‘çš„repositoryï¼Œå¯ä»¥ç”¨å‘½ä»¤git remote -vè¿›è¡ŒæŸ¥çœ‹ã€‚
+masteræ˜¯ä½ è¿œç¨‹çš„branchï¼Œå¯ä»¥ç”¨git branch -aæŸ¥çœ‹æ‰€æœ‰åˆ†æ”¯ï¼Œè¿œç¨‹åˆ†æ”¯æ˜¯çº¢è‰²çš„éƒ¨åˆ†ã€‚ç„¶åç¡®å®šå¥½è¿™ä¸¤ä¸ªå€¼åï¼Œå°†å€¼æ¢æ‰å³å¯ã€‚
+å¦ä¸€ç§æ–¹æ³•æ˜¯ï¼šgit push -u origin masterã€‚åŒæ ·æ ¹æ®è‡ªå·±çš„éœ€è¦ï¼Œæ›¿æ¢originå’Œmaster
 
-ÍêÕûgitÁ÷³Ì,ÏÈ´´½¨ÔÆ¶Ë¿â
+å®Œæ•´gitæµç¨‹,å…ˆåˆ›å»ºäº‘ç«¯åº“
+git remote add origin git@code.byted.org:yangxiangrui/lark_bot.git
 git status
 
-git add .(Ìí¼Óµ½Ôİ´æÇø
+git add .(æ·»åŠ åˆ°æš‚å­˜åŒº
 
-git commit -m "ËµÃ÷"
+git commit -m "è¯´æ˜"
 
-ÔÙ¸´ÖÆºóÁ½ĞĞ ¼´¿É½«´úÂëÉÏ´«µ½ÔÆ¶Ë**½«±¾µØÓëÔÆ¶Ë°ó¶¨
+å†å¤åˆ¶åä¸¤è¡Œ å³å¯å°†ä»£ç ä¸Šä¼ åˆ°äº‘ç«¯**å°†æœ¬åœ°ä¸äº‘ç«¯ç»‘å®š
 
-Ò»°ã¿ª·¢Ê¹ÓÃ:::
+ä¸€èˆ¬å¼€å‘ä½¿ç”¨:::
 
-Ã»ÓĞ-b¾ÍÊÇÇĞ»»·ÖÖ§²»´´½¨·ÖÖ§
-ĞÂµÄ·ÖÖ§:git checkout -b name(¼Ç×¡Ã»ÓĞ""
+æ²¡æœ‰-bå°±æ˜¯åˆ‡æ¢åˆ†æ”¯ä¸åˆ›å»ºåˆ†æ”¯
+æ–°çš„åˆ†æ”¯:git checkout -b name(è®°ä½æ²¡æœ‰""
 
-ÕâÒÑ¾­ÇĞ»»ÁË
+è¿™å·²ç»åˆ‡æ¢äº†
 
-ÔËĞĞgit branch²é¿´ËùÓĞ·ÖÖ§
+è¿è¡Œgit branchæŸ¥çœ‹æ‰€æœ‰åˆ†æ”¯
 
-git status(ºìÉ«Î´Ìí¼Ó,ÂÌÉ«ÒÑÌí¼ÓÔİ´æÇø
+git status(çº¢è‰²æœªæ·»åŠ ,ç»¿è‰²å·²æ·»åŠ æš‚å­˜åŒº
 
 
-git commit -m "Íê³ÉÁËÊ²Ã´¹¦ÄÜ"
+git commit -m "å®Œæˆäº†ä»€ä¹ˆåŠŸèƒ½"
 
-git branch ²é¿´·ÖÖ§
+git branch æŸ¥çœ‹åˆ†æ”¯
 
-ÈçºÎ°ÑĞÂ·ÖÖ§ºÏ²¢µ½Ö÷·ÖÖ§:
+å¦‚ä½•æŠŠæ–°åˆ†æ”¯åˆå¹¶åˆ°ä¸»åˆ†æ”¯:
 
-git checkout master(ÇĞ»»µ½master
+git checkout master(åˆ‡æ¢åˆ°master
 
-git merge xx(½«xx·ÖÖ§´úÂëºÏ²¢µ½master
+git merge xx(å°†xxåˆ†æ”¯ä»£ç åˆå¹¶åˆ°master
 
-git push(ÍÆËÍµ½ÔÆ¶Ë
+git push(æ¨é€åˆ°äº‘ç«¯
 
-´ËÊ±,½ö½öÊÇ½«±¾µØµÄÖ÷·ÖÖ§ÍÆËÍµ½ÔÆ¶Ë,ÈçºÎ½«ÆäËû·ÖÖ§Ò²ÍÆËÍµ½ÔÆ¶ËÄØ??  ÇĞ¼Ç ÏÈÌá½»masterÔÙÌá½»ÆäËûbranch
+æ­¤æ—¶,ä»…ä»…æ˜¯å°†æœ¬åœ°çš„ä¸»åˆ†æ”¯æ¨é€åˆ°äº‘ç«¯,å¦‚ä½•å°†å…¶ä»–åˆ†æ”¯ä¹Ÿæ¨é€åˆ°äº‘ç«¯å‘¢??  åˆ‡è®° å…ˆæäº¤masterå†æäº¤å…¶ä»–branch
 
-git checkout xxx ÇĞ»»µ½ÆäËû·ÖÖ§
+git checkout xxx åˆ‡æ¢åˆ°å…¶ä»–åˆ†æ”¯
 
-µÚÒ»´Î½«xx·ÖÖ§ÍÆËÍµ½ÔÆ¶Ë,´ËÊ±ÔÆ¶ËÃ»ÓĞ´Ë·ÖÖ§ ĞèÒª
+ç¬¬ä¸€æ¬¡å°†xxåˆ†æ”¯æ¨é€åˆ°äº‘ç«¯,æ­¤æ—¶äº‘ç«¯æ²¡æœ‰æ­¤åˆ†æ”¯ éœ€è¦
 
-git push -u origin xxx ¼´¿É!!!
-git push --set-upstream origin newBranch(»òÕß)
+git push -u origin xxx å³å¯!!!
+git push --set-upstream origin newBranch(æˆ–è€…)
 
-main.jsÀïÃæÅäÖÃaxios
+main.jsé‡Œé¢é…ç½®axios
 
 p21
-import axios from "axios"(ÒÑ¾­ÏÂÔØÁË
-Vue.prototype.$http(ÕâÀïÄãĞ´É¶ºóÃæ¾ÍÓÃÉ¶Ãû³Æthis.$xxx)=axios :°ÑÃ¿¸övue¶ÔÏó¹ÒÔØaxiosÊ¹ÆäÍ¨¹ıthis¾ÍÄÜ·ÃÎÊ
-axios.default.baseURL=''...ÅäÖÃ»ù´¡Â·ÓÉ(¸ùÂ·¾¶)
-ÔÙÍ¨¹ıthis.$http¾Í¿É·¢ÆğÇëÇó
-±ÈÈç:const result=(await)this.$http.post('url',²ÎÊı)
-Èç¹û·µ»Ø·½·¨ÊÇpromise ½¨ÒéÊ¹ÓÃasync
-½â¹¹¸³Öµ {data:res}Ö±½Ó°Ñdata¸³Öµµ½res
+import axios from "axios"(å·²ç»ä¸‹è½½äº†
+Vue.prototype.$http(è¿™é‡Œä½ å†™å•¥åé¢å°±ç”¨å•¥åç§°this.$xxx)=axios :æŠŠæ¯ä¸ªvueå¯¹è±¡æŒ‚è½½axiosä½¿å…¶é€šè¿‡thiså°±èƒ½è®¿é—®
+axios.default.baseURL=''...é…ç½®åŸºç¡€è·¯ç”±(æ ¹è·¯å¾„)
+å†é€šè¿‡this.$httpå°±å¯å‘èµ·è¯·æ±‚
+æ¯”å¦‚:const result=(await)this.$http.post('url',å‚æ•°)
+å¦‚æœè¿”å›æ–¹æ³•æ˜¯promise å»ºè®®ä½¿ç”¨async
+è§£æ„èµ‹å€¼ {data:res}ç›´æ¥æŠŠdataèµ‹å€¼åˆ°res
 
-ĞéÄâ»úmysql¶Ë¿Ú3310 
-linuxÊı¾İ¿âÃÜÂëadmin
+è™šæ‹Ÿæœºmysqlç«¯å£3310 
+linuxæ•°æ®åº“å¯†ç admin
 
-Ìá½»¾µÏñ:
-docker commit -m="ĞÅÏ¢" -a="×÷Õß" ÈİÆ÷id Ä¿±ê¾µÏñÃû(liqiqiorz/xxx:1.0)      ´ËÊ±ÊÇÌá½»µ½±¾µØ¾µÏñÈº
-¹¹½¨×Ô¼ºµÄ¾µÏñ:vim mydockerfile(Ëæ±ãÆğ
+æäº¤é•œåƒ:
+docker commit -m="ä¿¡æ¯" -a="ä½œè€…" å®¹å™¨id ç›®æ ‡é•œåƒå(liqiqiorz/xxx:1.0)      æ­¤æ—¶æ˜¯æäº¤åˆ°æœ¬åœ°é•œåƒç¾¤
+æ„å»ºè‡ªå·±çš„é•œåƒ:vim mydockerfile(éšä¾¿èµ·
 FROM ....
 MAINTAINER liqiqiorz<1099462011@qq.com>
-ENV MYPATH /usr/local (½øÈ¥µÄÄ¿Â¼
-WORKDIR $MYPATH(ÉèÖÃ¹¤×÷Ä¿Â¼
-RUN yun -y ....(×ÔÓÉ·¢»Ó
-EXPOSE 80(±©Â¶80
+ENV MYPATH /usr/local (è¿›å»çš„ç›®å½•
+WORKDIR $MYPATH(è®¾ç½®å·¥ä½œç›®å½•
+RUN yun -y ....(è‡ªç”±å‘æŒ¥
+EXPOSE 80(æš´éœ²80
 CMD echo $MYPATH
 CMD echo "----end----"
 CMD /bin/bash
-Ğ´ÍêÖ®ºó 
-¹¹½¨¾µÏñ:docker build -f mydockerfile -t liqiqiorz/xxx:1.0 .
-docker run -it liqiqiorz/xxx:1.0(ÔËĞĞÈİÆ÷
-Ò»½øÄ¿Â¼»áÊÇÉèÖÃµÄ¹¤×÷Ä¿Â¼
-ÄÃµ½Ò»¸ö¾µÏñÒÔºó docker history mirrorID¿ÉÒÔ²é¿´±ä¸üÀúÊ·ºÍĞÅÏ¢ ºÜÊµÓÃ
+å†™å®Œä¹‹å 
+æ„å»ºé•œåƒ:docker build -f mydockerfile -t liqiqiorz/xxx:1.0 .
+docker run -it liqiqiorz/xxx:1.0(è¿è¡Œå®¹å™¨
+ä¸€è¿›ç›®å½•ä¼šæ˜¯è®¾ç½®çš„å·¥ä½œç›®å½•
+æ‹¿åˆ°ä¸€ä¸ªé•œåƒä»¥å docker history mirrorIDå¯ä»¥æŸ¥çœ‹å˜æ›´å†å²å’Œä¿¡æ¯ å¾ˆå®ç”¨
 
 
-docker°²×°Ò»¸ö¾µÏñÍêÕû²½Öè(ÒÔ nginxÎªÀı)
-docker search nginx(²éÕÒ
-docker pull nginx(ÏÂÔØ¾µÏñ
-docker images(²é¿´¾µÏñ
-docekr run -d --name nginx01 -p 3344:80 nginx(Æô¶¯ÈİÆ÷)
-docker exec -it nginx01(½øÈë) /usr/share/nginx
+dockerå®‰è£…ä¸€ä¸ªé•œåƒå®Œæ•´æ­¥éª¤(ä»¥ nginxä¸ºä¾‹)
+docker search nginx(æŸ¥æ‰¾
+docker pull nginx(ä¸‹è½½é•œåƒ
+docker images(æŸ¥çœ‹é•œåƒ
+docekr run -d --name nginx01 -p 3344:80 nginx(å¯åŠ¨å®¹å™¨)
+docker exec -it nginx01(è¿›å…¥) /usr/share/nginx
 
 
-¾µÏñÏàµ±ÓÚclass ÈİÆ÷Ïàµ±ÓÚÊ¾Àı
-dockerµÇÂ¼ docker login -u liqiqiorz
-dockerÌá½»¾µÏñ docker push liqiqiroz/mirrorName:version ¾¡Á¿´øÉÏ°æ±¾ºÅ²»È»»áÊ§°Ü,°æ±¾ºÅ¿ÉÒÔËæ±ãĞ´
-¹ØÓÚÌá½»¾µÏñµÄ²¹³ä:¾µÏñÃüÁîÍ¨³£Çé¿öÏÂÂú×ãyourname/mirrorname,²»È»¾ÍĞèÒª¼Ótag±êÇ©
-ÏêÇé¼ûhttps://how2j.cn/k/docker/docker-push/2013.html
+é•œåƒç›¸å½“äºclass å®¹å™¨ç›¸å½“äºç¤ºä¾‹
+dockerç™»å½• docker login -u liqiqiorz
+dockeræäº¤é•œåƒ docker push liqiqiroz/mirrorName:version å°½é‡å¸¦ä¸Šç‰ˆæœ¬å·ä¸ç„¶ä¼šå¤±è´¥,ç‰ˆæœ¬å·å¯ä»¥éšä¾¿å†™
+å…³äºæäº¤é•œåƒçš„è¡¥å……:é•œåƒå‘½ä»¤é€šå¸¸æƒ…å†µä¸‹æ»¡è¶³yourname/mirrorname,ä¸ç„¶å°±éœ€è¦åŠ tagæ ‡ç­¾
+è¯¦æƒ…è§https://how2j.cn/k/docker/docker-push/2013.html
 
-ÏÈdocker images²éÑ¯ID
+å…ˆdocker imagesæŸ¥è¯¢ID
 docker tag mirrorId yourTag:version  (liqiqiorz/xxx:1.0)
-´ËÊ± docker images¾µÏñ¾Í»á¶àÒ»¸öÄãµÄyourTag:version
-´ËÊ±ÔÙdocker push liqiqiorz/xxx:1.0
+æ­¤æ—¶ docker imagesé•œåƒå°±ä¼šå¤šä¸€ä¸ªä½ çš„yourTag:version
+æ­¤æ—¶å†docker push liqiqiorz/xxx:1.0
 docker run --name tmalls -d  -p 8002:8002 --restart=always liqiqiorz/tmalls:latest
 docker run --name tmallers -d -p 8004:8002 liqiqiorz/tmaller:latest
 docker run --name cotreehole -d -p 8006:8006 liqiqiorz/treehole:latest
-Error response from daemon: Invalid container name (liqiqiorz/tmall), only [a-zA-Z0-9][a-zA-Z0-9_.-]              are allowed.ÈİÆ÷Ãû×Ö²»ÄÜÓĞ/
+Error response from daemon: Invalid container name (liqiqiorz/tmall), only [a-zA-Z0-9][a-zA-Z0-9_.-]              are allowed.å®¹å™¨åå­—ä¸èƒ½æœ‰/
 
 
-dockerÔËĞĞ:
-½«jarºÍdockerfile·ÅÈëÄã´´½¨µÄÎÄ¼ş¼Ğ docker build -t name .(×¢ÒâÓĞ¸ö. ¼´¿ÉÍê³É´ò°ü¾µÏñ,×¢ÒâÃû×Ö¿ÉÒÔËæ±ãĞ´µ«ÊÇÖ»ÄÜÊÇĞ¡Ğ´×ÖÄ¸²»È»±¨´í
-È»ºó¾Ídocker images ¾Í»á³öÏÖ¸Õ²ÅµÄ¾µÏñ
-ÔËĞĞ´´½¨ÈİÆ÷:docker run -d -P(´óĞ´ --name "Ëæ±ãÆğ¸öÃû×Ö×÷ÎªcontainerÃû×Ö" mirrorNAMe
-docker ps¿ÉÒÔ²éÑ¯ÈİÆ÷Ó³ÉäµØÖ· xxx->xxx
+dockerè¿è¡Œ:
+å°†jarå’Œdockerfileæ”¾å…¥ä½ åˆ›å»ºçš„æ–‡ä»¶å¤¹ docker build -t name .(æ³¨æ„æœ‰ä¸ª. å³å¯å®Œæˆæ‰“åŒ…é•œåƒ,æ³¨æ„åå­—å¯ä»¥éšä¾¿å†™ä½†æ˜¯åªèƒ½æ˜¯å°å†™å­—æ¯ä¸ç„¶æŠ¥é”™
+ç„¶åå°±docker images å°±ä¼šå‡ºç°åˆšæ‰çš„é•œåƒ
+è¿è¡Œåˆ›å»ºå®¹å™¨:docker run -d -P(å¤§å†™ --name "éšä¾¿èµ·ä¸ªåå­—ä½œä¸ºcontaineråå­—" mirrorNAMe
+docker pså¯ä»¥æŸ¥è¯¢å®¹å™¨æ˜ å°„åœ°å€ xxx->xxx
 
-docker stop <ÈİÆ÷ ID>
+docker stop <å®¹å™¨ ID>
 
-docker restart <ÈİÆ÷ ID>
+docker restart <å®¹å™¨ ID>
 
-Èç¹ûrunÖ®ºó ¿´²»µ½ÈİÆ÷ÔõÃ´°ì???:
-docker ps -a²éÑ¯ËùÓĞÈİÆ÷,°üÀ¨ÒÑ¾­ËÀÍöµÄ
-docker logs [id]²éÑ¯Æô¶¯Ê§°ÜÔ­Òò
-ps²éÑ¯ÔÚÔËĞĞµÄÈİÆ÷
-docker port NAME²é¿´¶Ë¿ÚÓ³ÉäÇé¿ö¡£
+å¦‚æœrunä¹‹å çœ‹ä¸åˆ°å®¹å™¨æ€ä¹ˆåŠ???:
+docker ps -aæŸ¥è¯¢æ‰€æœ‰å®¹å™¨,åŒ…æ‹¬å·²ç»æ­»äº¡çš„
+docker logs [id]æŸ¥è¯¢å¯åŠ¨å¤±è´¥åŸå› 
+psæŸ¥è¯¢åœ¨è¿è¡Œçš„å®¹å™¨
+docker port NAMEæŸ¥çœ‹ç«¯å£æ˜ å°„æƒ…å†µã€‚
 
-´´½¨Êı¾İ¿â CREATE DATABASE comment DEFAULT CHARACTER SET utf8;
-drop database <Êı¾İ¿âÃû>;É¾¿â
-µ¼ÈëÊı¾İ mysql -u root -padmin --default-character-set=utf8 tmall < /home/wwwroot/ftptest/tmall.sql
+åˆ›å»ºæ•°æ®åº“ CREATE DATABASE comment DEFAULT CHARACTER SET utf8;
+drop database <æ•°æ®åº“å>;åˆ åº“
+å¯¼å…¥æ•°æ® mysql -u root -padmin --default-character-set=utf8 tmall < /home/wwwroot/ftptest/tmall.sql
 cd /home/jaranddocker/gift
-²¿Êğµ½linux³ÖĞøÔËĞĞ nohup java -jar gift-0.0.1-SNAPSHOT.jar &
- nohup java -jar /usr/local/jenkins/jenkins.war>/usr/local/jenkins/jenkins.out &  >ºóÃæÊÇÈÕÖ¾´æ·ÅÎ»ÖÃ ×Ô¶¯´´½¨ÎÄ¼ş
-³öÏÖ  nohup: ignoring input and redirecting stderr to stdoutÔÙ´Î»Ø³µ¼´¿É
+éƒ¨ç½²åˆ°linuxæŒç»­è¿è¡Œ nohup java -jar gift-0.0.1-SNAPSHOT.jar &
+ nohup java -jar /usr/local/jenkins/jenkins.war>/usr/local/jenkins/jenkins.out &  >åé¢æ˜¯æ—¥å¿—å­˜æ”¾ä½ç½® è‡ªåŠ¨åˆ›å»ºæ–‡ä»¶
+å‡ºç°  nohup: ignoring input and redirecting stderr to stdoutå†æ¬¡å›è½¦å³å¯
 
 
-½«jar docker-compose.yml dockerfilecvµ½Ò»¸öÎÄ¼ş¼Ğ
-docker-compose up ¹¹½¨ÔËĞĞ
-ÏîÄ¿ÖØĞÂ²¿Êğ´ò°ü :docker-compose up --build ÏîÄ¿ÔÙÈ¥ÖØĞÂ¹¹½¨
+å°†jar docker-compose.yml dockerfilecvåˆ°ä¸€ä¸ªæ–‡ä»¶å¤¹
+docker-compose up æ„å»ºè¿è¡Œ
+é¡¹ç›®é‡æ–°éƒ¨ç½²æ‰“åŒ… :docker-compose up --build é¡¹ç›®å†å»é‡æ–°æ„å»º
 
-ps -ef | grep jenkins ²é¿´½ø³Ì(ÒÔjenkinsÎªÀı)
-kill -9 ID É±½ø³Ì
+ps -ef | grep jenkins æŸ¥çœ‹è¿›ç¨‹(ä»¥jenkinsä¸ºä¾‹)
+kill -9 ID æ€è¿›ç¨‹
 
-linuxÆô¶¯redis
-cd /usr/local/redis/bin  ---> ./redis-server ../redis.conf     ./redis-cli ¼´¿É½øÈëredis
+linuxå¯åŠ¨redis
+cd /usr/local/redis/bin  ---> ./redis-server ../redis.conf     ./redis-cli å³å¯è¿›å…¥redis
 
-Á¬½ÓRedis(±ØĞëÏÈÆô¶¯Å¶
+è¿æ¥Redis(å¿…é¡»å…ˆå¯åŠ¨å“¦
 /usr/local/redis/redis-cli 
-5.¹Ø±Õredis
-Ç¿ĞĞÖÕÖ¹redis½ø³Ì¿ÉÄÜ»áµ¼ÖÂredis³Ö¾Ã»¯Êı¾İ¶ªÊ§¡£ÕıÈ·Í£Ö¹RedisµÄ·½Ê½Ó¦¸ÃÊÇÏòRedis·¢ËÍSHUTDOWNÃüÁî£¬ÃüÁîÎª£º
+5.å…³é—­redis
+å¼ºè¡Œç»ˆæ­¢redisè¿›ç¨‹å¯èƒ½ä¼šå¯¼è‡´redisæŒä¹…åŒ–æ•°æ®ä¸¢å¤±ã€‚æ­£ç¡®åœæ­¢Redisçš„æ–¹å¼åº”è¯¥æ˜¯å‘Rediså‘é€SHUTDOWNå‘½ä»¤ï¼Œå‘½ä»¤ä¸ºï¼š
 cd /usr/local/redis
 ./bin/redis-cli shutdown
 
 ./redis-server ../redis.conf
 
-Ç¿ĞĞÖÕÖ¹redis
+å¼ºè¡Œç»ˆæ­¢redis
 pkill redis-server
 
 
@@ -236,12 +237,12 @@ keys *
 
 flushall
 
-ÈÃredis¿ª»ú×ÔÆô
+è®©rediså¼€æœºè‡ªå¯
 vim /etc/rc.local
-//Ìí¼Ó
+//æ·»åŠ 
 /usr/local/redis/bin/redis-server /usr/local/redis/etc/redis-conf
 
 
-²é¿´ËùÓĞ½ø³Ì :netstat -ano
+æŸ¥çœ‹æ‰€æœ‰è¿›ç¨‹ :netstat -ano
 
-findstr xxx ²éÑ¯Ä³¸ö¶Ë¿Ú
+findstr xxx æŸ¥è¯¢æŸä¸ªç«¯å£
